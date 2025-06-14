@@ -1,0 +1,180 @@
+/* Gaya untuk ikon "garis 3" */
+
+body {
+    background-color: #d8e9c3;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0%;
+    background-repeat: no-repeat;
+}
+.menu-icon {
+    background-color: rgb(200, 200, 200);
+    cursor: pointer; /* Mengubah kursor menjadi pointer */
+    position: fixed; /* Posisi tetap di pojok kiri atas */
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000; /* Memastikan ikon berada di atas elemen lain */
+}
+
+.menu-icon span {
+    display: block; /* Membuat garis horizontal */
+    width: 30px;
+    height: 2px;
+    background-color: rgb(90, 90, 90); /* Warna garis */
+    margin: 5px; /* Jarak antar garis */
+}
+
+.menu-icon :hover {
+    color: rgb(255, 0, 0); /* Warna garis */
+}
+
+/* Gaya untuk daftar menu */
+.menu-list {
+    list-style-type: none; /* Menghilangkan bullet point */
+    padding: 0;
+    margin: 0;
+    position: fixed; /* Posisi tetap */
+    top: 60px; /* Jarak dari atas */
+    left: 20px; /* Jarak dari kiri */
+    background-color: white; /* Warna latar belakang */
+    border: 1px solid #ccc; /* Border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    display: none; /* Awalnya disembunyikan */
+}
+
+.menu-list li {
+    padding: 10px 20px; /* Ruang di dalam setiap <li> */
+}
+
+.menu-list li a {
+    text-decoration: none; /* Menghilangkan garis bawah pada hyperlink */
+    color: black; /* Warna teks */
+    font-size: 16px;
+}
+
+.menu-list li a:hover {
+    color: blue; /* Warna teks saat dihover */
+}
+
+/* Menampilkan menu saat class "show" ditambahkan */
+.menu-list.show {
+    display: block;
+}
+.foto {
+    background-image: url(https://i.pinimg.com/originals/18/b3/8f/18b38ffbcbe19112680745465b5c07a8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+img {
+width: 150px;
+height: auto;
+margin-top: 20px;
+margin-bottom: 0px;
+border: 2px solid #00000022;
+border-style: groove;
+border-radius: 20px;
+
+}
+.container-text02 {
+    color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 12px;
+
+} 
+.typing-container {
+    align-items: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #464646;
+}
+.daftar-menu {
+    display: block;
+    text-align: center;
+}
+.daftar-menu li {
+    display: inline;
+    list-style: none;
+    background-color: #554b4b82;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+   
+}
+.daftar-menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+}
+.icon02 img {
+    width: 50px;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    border-style: solid;
+    border-radius: 100%;
+}
+.icon02 p {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: initial;
+}
+.tombol002 {
+    margin: 20px;
+}
+.tombol002 a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.tombol002 :hover {
+color: rgb(197, 193, 193);
+}
+
+.judul {
+    background-color: #0d7703;
+    height: 35px;
+    text-align: center;
+
+}
+.judul p {
+    font-size: 20px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.About {
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.kartu {
+    margin-top: 20vh;
+}
+.dropdown {
+    margin-top: 60px;
+}
+
+.informasibtn {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    background-color: #777777;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+}
