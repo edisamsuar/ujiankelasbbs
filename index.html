@@ -8,7 +8,271 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"> <!-- File CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
+    <style>
+      /* Gaya untuk ikon "garis 3" */
+
+body {
+    background-color: #d8e9c3;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0%;
+    background-repeat: no-repeat;
+}
+.menu-icon {
+    background-color: rgb(200, 200, 200);
+    cursor: pointer; 
+    position: fixed; 
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000; 
+}
+
+.menu-icon span {
+    display: block; 
+    width: 30px;
+    height: 2px;
+    background-color: rgb(90, 90, 90); 
+    margin: 5px; 
+}
+
+.menu-icon :hover {
+    color: rgb(255, 0, 0); 
+}
+
+
+.menu-list {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    position: fixed; 
+    top: 60px; 
+    left: 20px; 
+    background-color: white; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: none; 
+}
+.menu-list li {
+    padding: 10px 20px; 
+}
+
+.menu-list li a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 16px;
+}
+
+.menu-list li a:hover {
+    color: blue; 
+}
+
+
+.menu-list.show {
+    display: block;
+}
+.foto {
+    background-image: url(https://i.pinimg.com/originals/18/b3/8f/18b38ffbcbe19112680745465b5c07a8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+img {
+width: 150px;
+height: auto;
+margin-top: 20px;
+margin-bottom: 0px;
+border: 2px solid #00000022;
+border-style: groove;
+border-radius: 20px;
+
+}
+.container-text02 {
+    color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 12px;
+
+} 
+.typing-container {
+    align-items: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #464646;
+}
+.daftar-menu {
+    display: block;
+    text-align: center;
+}
+.daftar-menu li {
+    display: inline;
+    list-style: none;
+    background-color: #554b4b82;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+   
+}
+.daftar-menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+}
+.icon02 img {
+    width: 50px;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    border-style: solid;
+    border-radius: 100%;
+}
+.icon02 p {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: initial;
+}
+.tombol002 {
+    margin: 20px;
+}
+.tombol002 a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.tombol002 :hover {
+color: rgb(197, 193, 193);
+}
+
+.judul {
+    background-color: #0d7703;
+    height: 35px;
+    text-align: center;
+
+}
+.judul p {
+    font-size: 20px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.About {
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.kartu {
+  .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+}
+.dropdown {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.informasibtn {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    background-color: #777777;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+/* Style Dasar Footer */
+.site-footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 40px 0 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.footer-section h3 {
+  color: #f39c12;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #bdc3c7;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f39c12;
+}
+
+.footer-bottom {
+  background-color: #1a252f;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+  .footer-section {
+    flex: 100%;
+    text-align: center;
+  }
+}
+.infoapk {
+    text-align: center;
+    margin-bottom: 150px;
+}
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+    </style>
+  </head>
 <body>
     <div><nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -54,21 +318,21 @@
     Pilih Kelas
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="https://forms.gle/XGw1Zok7kH7AUWeBA">Kelas 1A Tgk Maulidin</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/oBSfjLdeBuqqiCsY6">Kelas 1A Tgk Maulidin</a></li>
     <li><a class="dropdown-item" href="https://forms.gle/vH7UDuxYEC9ppEDk6">Kelas 1B Tgk Azman</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 1C Tgk Haikal</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 1D Tgk Nurul Aini</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 2A Tgk Hendra</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 2B Tgk Miftahul Fauzi</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 2C Tgk Ahyar Rizki</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 2D Tgk Ikbal</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 2E Tgk Saryulis</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 2F Tgk Muksalmina Tgk Haikal</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 4A Tgk Fathul Farisan</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/7fy1Yxom7eez3e7V7">Kelas 1C Tgk Haikal</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/9H2HgXNc26WP31EH9">Kelas 1D Tgk Nurul Aini</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/J2rbmWno7284ob24A">Kelas 2A Tgk Hendra Saputra</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/t3TmP17adib3Jjvc7">Kelas 2B Tgk Miftahul Fauzi</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/zXYNtbPjVWw4phVJ8">Kelas 2C Tgk Ahyar Rizki</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/NcSRQ5tU4R33vp266">Kelas 2D Tgk Ikbal</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/uSuAwqRCCKuL35Sd7">Kelas 2E Tgk Saryulis</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/E35U88gBUkWqKNP2A">Kelas 2F Tgk Muksalmina</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/CBUGjb9jhzKtKRjW9">Kelas 4A Tgk Fathul Farisan</a></li>
     <li><a class="dropdown-item" href="https://forms.gle/u8hAcrB4m4sFtEp27">Kelas 4B Tgk M. Arief Fazillah</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 4C Tgk Nurhadi</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 5A Tgk Raja Munandar</a></li>
-    <li><a class="dropdown-item" href="#">Kelas 5B Tgk Ulfan Yoga</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/mmRLZSdYEBFZsL259">Kelas 4C Tgk Nurhadi</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/8UX2qwyiThLEFFe49">Kelas 5A Tgk Raja Munandar</a></li>
+    <li><a class="dropdown-item" href="https://forms.gle/cev95n8Xa8KYpSbj7">Kelas 5B Tgk Ulfan Yoga</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="#">Lainnya.....</a></li>
   </ul>
@@ -99,20 +363,52 @@
     
     <div class="footer-section">
       <h3>Ada Kendala?</h3>
-      <a href="https://wa.me/6282217502205" target="_blank" class="whatsapp-button">
-  <i class="fab fa-whatsapp"></i> Hubungi Developer
+      <a href="https://wa.me/6281234567890" target="_blank" class="whatsapp-button">
+  <i class="fab fa-whatsapp"></i> WhatsApp Kami
 </a>
 
     </div>
   </div>
   
   <div class="footer-bottom">
-    <p>&copy; 2025 Edi Samsuar. All Right Reserved.</p>
+    <p>&copy; 2025 Edi Samsaur. AllRight Reserved.</p>
   </div>
 </footer>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script> <!-- File JavaScript -->
+    <script>
+
+      // Ambil elemen ikon dan daftar menu
+const menuIcon = document.getElementById('menuIcon');
+const menuList = document.getElementById('menuList');
+
+// Tambahkan event listener untuk klik pada ikon
+menuIcon.addEventListener('click', () => {
+    // Toggle class "show" pada daftar menu
+    menuList.classList.toggle('show');
+});
+
+const text = "Selamat datang di bilek brok."; // Teks yang akan dianimasikan
+const typingText = document.getElementById('typing-text');
+const cursor = document.querySelector('.cursor');
+
+let index = 0;
+
+function type() {
+    if (index < text.length) {
+        typingText.textContent += text.charAt(index); // Menambahkan satu karakter
+        index++;
+        setTimeout(type, 30); // Waktu delay antar karakter (dalam milidetik)
+    } else {
+        cursor.style.display = 'none'; // Menyembunyikan kursor setelah selesai
+    }
+}
+
+// Memulai animasi
+type();
+
+    </script>
 </body>
 </html>
